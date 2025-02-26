@@ -1,0 +1,19 @@
+.odds {
+    background-color: #FFA7A7;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cool-class {
+    font-size: 24px;
+}
+
+#big-blue {
+    font-size: 36px;
+    color: #0000FF;
+}
+
+#gang-green {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #80FF80;
+}
