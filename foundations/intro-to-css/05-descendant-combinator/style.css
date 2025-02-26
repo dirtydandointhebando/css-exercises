@@ -1,0 +1,7 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    /* there are a number of ways that this could have been done, but I opted to use . container .txt because yellow and red is a hideous combination (they don't look on their own either), so I prefer to apply these styles to classes rather than to an entire type (i.e. div or p). */
+}
