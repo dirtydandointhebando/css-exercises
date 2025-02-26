@@ -1,12 +1,11 @@
-button {
+.primary-button, .secondary-button {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
     border-radius: 0;
-    border
-    border-left: color #545454;
-    border-top: color #545454;
-    border-bottom: color black;
-    border-right: color black;
+    border-left-color: color #545454;
+    border-top-color: #545454;
+    border-bottom-color: black;
+    border-right-color: black;
 }
 
 .primary-button {
