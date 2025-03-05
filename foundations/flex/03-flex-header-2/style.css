@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 15px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .profile-image {
@@ -20,6 +31,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -27,6 +39,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-self: center;
 }
 
 button {
@@ -45,4 +58,31 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 15px
+}
+
+.notifications {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  min-height: 30px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav, .profile {
+  display: flex;
+  align-items: center;
 }
