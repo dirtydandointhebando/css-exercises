@@ -49,8 +49,13 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 }
 
+.container {
+  display: flex;
+  flex: 1;
+}
 .sidebar {
   display: flex;
   flex-shrink: 0;
