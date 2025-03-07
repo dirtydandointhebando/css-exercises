@@ -34,3 +34,11 @@ body {
   font-size: 32px;
   font-weight: 900;
 }
+
+.content {
+  display: flex;
+}
+
+.sidebar ul {
+  list-style: none;
+}
