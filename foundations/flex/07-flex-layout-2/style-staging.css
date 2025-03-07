@@ -45,6 +45,7 @@ body {
   align-items: center;
   font-size: 32px;
   font-weight: 900;
+  padding: 0px 20px;
 }
 
 .content {
@@ -54,13 +55,20 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   flex: 1;
+  padding: 10px;
+  margin: 20px;
 }
 
 .card {
-  padding: 5px;
-  margin: 3px;
+  display: flex;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
   border-radius: 10px;
+  height: 200px;
 }
 
 .sidebar {
@@ -69,9 +77,12 @@ body {
   width: 300px;
 }
 
-.sidebar ul {
+ul {
   list-style: none;
-  
+}
+
+li {
+  margin: 10px;
 }
 
 .footer {
@@ -79,4 +90,9 @@ body {
   justify-content: center;
   margin-top: auto;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
