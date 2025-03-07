@@ -30,7 +30,19 @@ body {
 
 /* new code */
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
+  display: flex;
+  align-items: center;
   font-size: 32px;
   font-weight: 900;
 }
@@ -39,6 +51,18 @@ body {
   display: flex;
 }
 
+.sidebar {
+  display: flex;
+}
+
 .sidebar ul {
   list-style: none;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  align-items: center;
 }
